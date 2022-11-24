@@ -1,4 +1,4 @@
-function [simp,comp]=int(t,p,r)
+function [simp,comp]=interest(t,p,r)
 simp=simple_int(t,p,r);
 comp=compound_int(t,p,r);
     function simp=simple_int(t,p,r)
